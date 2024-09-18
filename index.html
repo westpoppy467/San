@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16690571135"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16690571135');
+</script>
+<!-- Event snippet for KICK conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16690571135/vjv_CITd5tMZEP_O15Y-',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5VHVJJZCRF"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5VHVJJZCRF');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MOBIHUB lite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <style>
+    /* Allgemeine Stile */
+    .new-regular,
+    .new-bold,
+    .new-regular-italic,
+    .new-bold-italic {
+      font-family: "B612", sans-serif;
+    }
+
+    .new-regular {
+      font-weight: 400;
+      font-style: normal;
+    }
+
+    .new-bold {
+      font-weight: 700;
+      font-style: normal;
+    }
+
+    .new-regular-italic {
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    .new-bold-italic {
+      font-weight: 700;
+      font-style: italic;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      font-family: "B612", sans-serif;
+    }
+
+    header {
+      background-color: #fff;
+      color: #000;
+      padding: 10px;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+
+    .new-logo img {
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    /* Hauptbereichsstile */
+    main {}
+
+    /* Großes Bildstile */
+    .new-big-image,
+    .new-big-image_2 {
+      position: relative;
+      width: 100%;
+      height: 85vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 20px;
+      filter: blur();
+    }
+
+    .new-big-image {
+      background-image: url("14.jpg");
+    }
+
+    .new-big-image_2 {
+      background-image: url("13.jpg");
+    }
+
+    .new-big-image-text {
+      color: #fff;
+      padding: 20px;
+      border-radius: 25px;
+    }
+
+    /* Schaltflächenstile */
+    .new-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #ffd7ef;
+      color: #000;
+      text-decoration: none;
+      border-radius: 25px;
+      margin-top: 20px;
+      font-weight: bolder;
+      font-size: 30px;
+      border: solid 1px #ffd7ef;
+      animation: myAnim 2s ease 2s infinite normal forwards;
+      cursor: pointer;
+    }
+
+    @keyframes myAnim {
+      0% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.1);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+
+    /* Abschnittsstile */
+    .new-section,
+    .new-section_2 {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    /* Abschnitt 2 Stile */
+    .new-section_2 {
+      padding: 30px;
+      text-align: left;
+      background-color: #ffd7ef;
+      border-radius: 25px;
+    }
+
+    .new-section div {
+      flex-basis: calc(33.33% - 20px);
+      margin-bottom: 20px;
+    }
+
+    .new-section img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 25px;
+    }
+
+    .new-section p {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 20px;
+      margin: 10px;
+    }
+
+    /* Responsive Styles */
+    @media only screen and (max-width: 768px) {
+
+      .new-section,
+      .new-section_2 {
+        flex-wrap: wrap;
+      }
+
+      .new-section div {
+        flex-basis: calc(100% - 20px);
+        margin-right: 0;
+      }
+
+      h2 {
+        font-size: 30px;
+      }
+    }
+
+    /* Testimonial Styles */
+    .new-otziv {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background-color: #ffd7ef;
+      color: #000;
+      border-radius: 25px;
+      padding: 5px;
+    }
+
+    .new-otziv>img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .new-otziv>p {
+      text-align: left;
+    }
+
+    .new-name {
+      font-weight: bolder;
+      font-style: normal;
+    }
+
+    /* Block Styles */
+    .new-block {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .new-title {
+      width: 90%;
+      font-size: 20px;
+      font-weight: bolder;
+      color: #000;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .new-description {
+      width: 70%;
+      display: none;
+      padding: 10px;
+      background-color: #fff;
+    }
+
+    .new-span_bold {
+      font-weight: bolder;
+    }
+
+    hr {
+      background-color: #333;
+      width: 50%;
+    }
+
+    .new-link1 {
+      text-decoration: none;
+      color: #ffd7ef;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: rgb(0, 0, 0);
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    footer a {
+      color: #ffd7ef;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+
+      function getCid(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length === 2) {
+          const fullCookieValue = parts.pop().split(';').shift();
+          const cidValue = fullCookieValue.split('.')[2] + '.' + fullCookieValue.split('.')[3];
+          return cidValue;
+        }
+        return null;
+      }
+
+      const cid = getCid('_ga');
+
+      // Получаем все кнопки с атрибутом onclick
+      var buttons = document.querySelectorAll('[onclick^="return gtag_report_conversion"]');
+
+      // Перебираем каждую кнопку
+      buttons.forEach(function (button) {
+        // Получаем текущее значение атрибута onclick
+        var currentOnClick = button.getAttribute('onclick');
+
+        // Извлекаем параметры из текущей ссылки
+        var urlParams = new URLSearchParams(window.location.search);
+        var keywordParam = urlParams.get('utm_term');
+        var gclidParam = urlParams.get('gclid');
+
+        // Формируем новую ссылку с параметрами
+        var newOnClick = "return gtag_report_conversion('https://relator-embitter.click/29pkKc3s?" + "utm_term=" + keywordParam + "&gclid=" + gclidParam + "&cid=" + cid + "')";
+
+        // Заменяем текущее значение атрибута onclick новым
+        button.setAttribute('onclick', newOnClick);
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <header>
+    <div class="new-logo">MOBIHUB lite</div>
+  </header>
+  <main>
+    <!-- Großer Bildabschnitt -->
+    <div class="new-big-image">
+      <div class="new-big-image-text">
+        <h1>Jednostavan i pasivan prihod</h1>
+        <h2>Gledajte videozapise i zaradite dobar novac.</h2>
+        <button class="new-button" onclick="return gtag_report_conversion('https://relator-embitter.click/29pkKc3s')">👉
+          ZAPOČNITE
+          ODMAH 👈</button>
+      </div>
+    </div>
+    <!-- Glavni odjeli -->
+    <h2>Mi plaćamo 1 euro za gledanje videozapisa</h2>
+    <h3>Pridružite se Telegramu i počnite zarađivati već danas!</h3>
+    <!-- Prvi odjel -->
+    <div class="new-section">
+      <div>
+        <img src="1.jpg">
+        <p>Mi smo neovisna agencija koja procjenjuje kvalitetu video sadržaja.</p>
+      </div>
+      <div>
+        <img src="2.jpg">
+        <p>U suradnji s društvenom mrežom TikTok i aplikacijom Telegram pokrenuli smo partnerski program. Potrebni su nam
+          neovisni stručnjaci, a jedan od njih možete biti i vi.</p>
+      </div>
+      <div>
+        <img src="3.jpg">
+        <p>Naš partnerski program usmjeren je na neovisnu procjenu kvalitete video sadržaja na društvenoj mreži TikTok
+          putem aplikacije Telegram. Plaćamo 10 eura za gledanje videozapisa!</p>
+      </div>
+      <button class="new-button" onclick="return gtag_report_conversion('https://relator-embitter.click/29pkKc3s')">👉 ZAPOČNITE
+        ODMAH 👈</button>
+    </div>
+    
+
+   <!-- Drugi odjel -->
+<h2>Naša ponuda</h2>
+<div class="new-section_2">
+  <div>
+    <p><span class="new-span_bold">Fleksibilno radno vrijeme</span> – Radite tamo gdje i kada vam odgovara.</p>
+  </div>
+  <div>
+    <p><span class="new-span_bold">Bez ograničenja zarade</span> – Vaš prihod ovisi samo o vama i vašoj želji.</p>
+  </div>
+  <div>
+    <p><span class="new-span_bold">Dnevne isplate</span> – Primajte svoj prihod na način koji vam odgovara.</p>
+  </div>
+  <div>
+    <p><span class="new-span_bold">Vaša obrazovna i profesionalna pozadina</span> za nas nije važna.</p>
+  </div>
+</div>
+
+<h2>Što trebam raditi?</h2>
+<div class="new-section">
+  <div>
+    <img src="4.jpeg">
+    <p class="new-span_bold">Gledati videozapise</p>
+  </div>
+  <div>
+    <img src="5.jpeg">
+    <p class="new-span_bold">Ocjenjivati, stavljati lajkove ili dislajkove videozapisima.</p>
+  </div>
+  <div>
+    <img src="6.jpeg">
+    <p class="new-span_bold">I za to dobivati stvarni novac.</p>
+  </div>
+</div>
+
+<div style="margin: 30px;">
+  <!-- Kako se pridružiti programu odjel -->
+  <h2>Kako se pridružiti našem partnerskom programu</h2>
+  <p>Vrlo je lako zaraditi novac s našim programom. <span class="new-span_bold">Morate biti stariji od 18 godina,
+      imati pametni telefon s instaliranom aplikacijom Telegram i pristup internetu.</span> Ako još nemate
+    aplikaciju Telegram, možete je preuzeti iz <a class="new-link1"
+      href="https://apps.apple.com/ru/app/telegram-messenger/id686449807">App Storea</a> ili <a class="new-link1"
+      href="https://play.google.com/store/apps/details?id=org.telegram.messenger&hl=ro&gl=RO">Google Play
+      Trgovine</a>.</p>
+</div>
+
+<!-- Dodatni koraci odjel -->
+<div style="margin: 5px; border-radius: 25px; padding: 5px; background-color: #ffd7ef;">
+  <div>
+    <span>1️⃣</span>
+    <p class="new-span_bold">Posjetite naš Telegram kanal</p>
+  </div>
+  <div>
+    <span>2️⃣</span>
+    <p><span class="new-span_bold">Aktivirajte svoj osobni račun.</span> Da biste aktivirali svoj
+      osobni račun, pritisnite gumb <span class="new-span_bold">START</span> na našem Telegram kanalu.</p>
+  </div>
+  <div>
+    <span>3️⃣</span>
+    <p><span class="new-span_bold">Zarađujte novac gledajući i ocjenjujući videozapise.</span> Bit će vam pruženi
+      videozapisi za ocjenu. Gledajte videozapise, ocjenjujte ih i zarađujte stvarni novac.</p>
+  </div>
+</div>
+
+
+
+    <!-- Odjel Recenzije -->
+<h2>Recenzije naših partnera</h2>
+<div class="new-section">
+  <div class="new-otziv">
+    <img src="7.png">
+    <p class="new-name">Michael</p>
+    <p>Partnerski program je jednostavno čaroban! Zarađujem novac dok sam u svom omiljenom messengeru i gledam videozapise na TikToku. To je jednostavno nevjerojatno!</p>
+  </div>
+  <div class="new-otziv">
+    <img src="8.png">
+    <p class="new-name">Emma</p>
+    <p>Odličan način za zaradu gledajući TikTok videozapise u Telegramu. Praktično, brzo i, što je najvažnije, isplativo. Preporučujem!</p>
+  </div>
+  <div class="new-otziv">
+    <img src="9.png">
+    <p class="new-name">Sofia</p>
+    <p>Partnerski program za zaradu u Telegramu je moje novo otkriće! Samo uđite na kanal, gledajte videozapise i novac se automatski prebacuje na vaš račun. Izvrsno!</p>
+  </div>
+  <div class="new-otziv">
+    <img src="10.png">
+    <p class="new-name">Wolfgang</p>
+    <p>Sada je moj Telegram postao još zanimljiviji zahvaljujući ovom partnerskom programu. Zarađujem gledajući TikTok videozapise. To je jednostavno fantastično!</p>
+  </div>
+  <div class="new-otziv">
+    <img src="11.png">
+    <p class="new-name">Stephen</p>
+    <p>Zahvaljujući partnerskom programu sada zarađujem na svom hobiju. Samo sjedim u Telegramu, gledam videozapise i za to dobivam novac. Sjajno!</p>
+  </div>
+  <div class="new-otziv">
+    <img src="12.png">
+    <p class="new-name">Matthias</p>
+    <p>Napokon sam pronašao savršen način za zarađivanje novca na svojim omiljenim videozapisima na TikToku i Telegramu. Praktično, brzo i isplativo!</p>
+  </div>
+</div>
+
+<!-- Blokovi odjela -->
+<div class="new-block" onclick="toggleDescription(1)">
+  <div class="new-title">Što je potrebno za sudjelovanje u partnerskom programu? 👈</div>
+  <hr>
+  <div id="description1" class="new-description">Morate biti stariji od 18 godina, imati pametni telefon s instaliranom aplikacijom Telegram i pristup internetu.</div>
+</div>
+<div class="new-block" onclick="toggleDescription(2)">
+  <div class="new-title">Kako se registrirati u partnerskom programu? 👈</div>
+  <hr>
+  <div id="description2" class="new-description">Jednostavno posjetite naš Telegram kanal i pritisnite gumb START na našem kanalu.</div>
+</div>
+<div class="new-block" onclick="toggleDescription(3)">
+  <div class="new-title">Kako aktivirati moj račun? 👈</div>
+  <hr>
+  <div id="description3" class="new-description">Da biste aktivirali svoj račun, trebate pritisnuti gumb START na našem Telegram kanalu.</div>
+</div>
+<div class="new-block" onclick="toggleDescription(4)">
+  <div class="new-title">Što je posebno u suradnji s vašim partnerskim programom? 👈</div>
+  <hr>
+  <div id="description4" class="new-description">Suradnja s našim partnerskim programom je vrlo jednostavna. Gledate TikTok videozapise, ocjenjujete ih i za to dobivate novac.</div>
+</div>
+<div class="new-block" onclick="toggleDescription(5)">
+  <div class="new-title">Koliko često se isplate vrše? 👈</div>
+  <hr>
+  <div id="description5" class="new-description">Isplate se vrše nakon postizanja minimalnog iznosa za isplatu.</div>
+</div>
+
+<div class="new-big-image_2">
+  <div class="new-big-image-text">
+    <h1>Zarađujte lako i pasivno</h1>
+    <h2>Gledajte kratke videozapise i zarađujte dobar novac.</h2>
+    <button class="new-button" onclick="return gtag_report_conversion('https://relator-embitter.click/29pkKc3s')">👉
+      ZAPOČNITE ODMAH 👈</button>
+  </div>
+</div>
+
+
+  </main>
+  <footer>
+    <a href="policy.html">Politika privatnosti</a>
+    <a href="disclaimer.html">Uvjeti</a>
+
+  </footer>
+  <script>
+    function toggleDescription(index) {
+      var description = document.getElementById("description" + index);
+      if (description.style.display === "block") {
+        description.style.display = "none";
+      } else {
+        description.style.display = "block";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
